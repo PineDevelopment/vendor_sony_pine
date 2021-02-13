@@ -237,6 +237,48 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pine/proprietary/usr/idc/mtk-tpd.idc:system/usr/idc/mtk-tpd.idc \
     vendor/sony/pine/proprietary/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
     vendor/sony/pine/proprietary/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/020b0000000000000000000000000000.drbin:system/vendor/app/mcRegistry/020b0000000000000000000000000000.drbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/020b0000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:system/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin:system/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/05110000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/05110000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/05120000000000000000000000000000.drbin:system/vendor/app/mcRegistry/05120000000000000000000000000000.drbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/05120000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/05120000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/05200000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/05200000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/06040000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/06040000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/06090000000000000000000000000000.drbin:system/vendor/app/mcRegistry/06090000000000000000000000000000.drbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/06090000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/06090000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/07050000000000000000000000000000.drbin:system/vendor/app/mcRegistry/07050000000000000000000000000000.drbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/07050000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/07050000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/0706000000000000000000000000004d.tlbin:system/vendor/app/mcRegistry/0706000000000000000000000000004d.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/07060000000000000000000000007169.drbin:system/vendor/app/mcRegistry/07060000000000000000000000007169.drbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/07060000000000000000000000007169.tlbin:system/vendor/app/mcRegistry/07060000000000000000000000007169.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/07061000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/07061000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/07070000000000000000000000000000.drbin:system/vendor/app/mcRegistry/07070000000000000000000000000000.drbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/07070000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/07070000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/070b0000000000000000000000000000.drbin:system/vendor/app/mcRegistry/070b0000000000000000000000000000.drbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/070b0000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/070b0000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/08020000000000000000000000007169.tlbin:system/vendor/app/mcRegistry/08020000000000000000000000007169.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/08030000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/08030000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/08090000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/08090000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/08110000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/08110000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/09010000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/09010000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/09150000000000000000000000000000.tlbin:system/vendor/app/mcRegistry/09150000000000000000000000000000.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/14986809b46c4941b7740aa3179f0e3e.tabin:system/vendor/app/mcRegistry/14986809b46c4941b7740aa3179f0e3e.tabin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/375dc3aa776811e38c992c27d744d66e.drbin:system/vendor/app/mcRegistry/375dc3aa776811e38c992c27d744d66e.drbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/375dc3aa776811e38c992c27d744d66e.tlbin:system/vendor/app/mcRegistry/375dc3aa776811e38c992c27d744d66e.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/37b404db11db4fd4af5e846106b1c3d0.tlbin:system/vendor/app/mcRegistry/37b404db11db4fd4af5e846106b1c3d0.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/40188311faf343488db888ad39496f9a.drbin:system/vendor/app/mcRegistry/40188311faf343488db888ad39496f9a.drbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/40188311faf343488db888ad39496f9a.tlbin:system/vendor/app/mcRegistry/40188311faf343488db888ad39496f9a.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.drbin:system/vendor/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.drbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.tlbin:system/vendor/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/98fb95bcb4bf42d26473eae48690d7ea.tlbin:system/vendor/app/mcRegistry/98fb95bcb4bf42d26473eae48690d7ea.tlbin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/a78c5714f5a5410c8c855f8dd7a1efda.tabin:system/vendor/app/mcRegistry/a78c5714f5a5410c8c855f8dd7a1efda.tabin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/b9c2809f99004f909133f2ebd0074545.tabin:system/vendor/app/mcRegistry/b9c2809f99004f909133f2ebd0074545.tabin \
+    vendor/sony/pine/proprietary/vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tlbin:system/vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tlbin \
     vendor/sony/pine/proprietary/vendor/bin/MtkCodecService:system/vendor/bin/MtkCodecService \
     vendor/sony/pine/proprietary/vendor/bin/aee:system/vendor/bin/aee \
     vendor/sony/pine/proprietary/vendor/bin/aee_archive:system/vendor/bin/aee_archive \
