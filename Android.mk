@@ -29,26 +29,6 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE        := libdpframework
-LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_SRC_FILES_64  := proprietary/vendor/lib64/libdpframework.so
-LOCAL_SRC_FILES_32  := proprietary/vendor/lib/libdpframework.so
-LOCAL_MULTILIB := both
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libgralloc_extra
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MULTILIB := both
-LOCAL_SRC_FILES_64  := proprietary/vendor/lib64/libgralloc_extra.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libgralloc_extra.so
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libion_mtk
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -59,11 +39,51 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE        := libmtkcam_fwkutils
-LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
+LOCAL_MODULE := libmtkcam_fwkutils
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
-LOCAL_SRC_FILES_64  := proprietary/vendor/lib64/libmtkcam_fwkutils.so
-LOCAL_SRC_FILES_32  := proprietary/vendor/lib/libmtkcam_fwkutils.so
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libmtkcam_fwkutils.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libmtkcam_fwkutils.so
+LOCAL_MULTILIB := both
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libcam.client
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libcam.client.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libcam.client.so
+LOCAL_MULTILIB := both
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libcam_utils
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libcam_utils.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libcam_utils.so
+LOCAL_MULTILIB := both
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := librilmtk
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/librilmtk.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/librilmtk.so
+LOCAL_MULTILIB := both
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mtk-ril
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/mtk-ril.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/mtk-ril.so
 LOCAL_MULTILIB := both
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
