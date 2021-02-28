@@ -621,8 +621,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pine/proprietary/vendor/lib/libgas.so:system/vendor/lib/libgas.so \
     vendor/sony/pine/proprietary/vendor/lib/libged.so:system/vendor/lib/libged.so \
     vendor/sony/pine/proprietary/vendor/lib/libgpu_aux.so:system/vendor/lib/libgpu_aux.so \
-    vendor/sony/pine/proprietary/vendor/lib/libgralloc_extra.so:system/vendor/lib/libgralloc_extra.so \
-    vendor/sony/pine/proprietary/vendor/lib/libgui_ext.so:system/vendor/lib/libgui_ext.so \
     vendor/sony/pine/proprietary/vendor/lib/libh264enc_sa.ca7.so:system/vendor/lib/libh264enc_sa.ca7.so \
     vendor/sony/pine/proprietary/vendor/lib/libh264enc_sb.ca7.so:system/vendor/lib/libh264enc_sb.ca7.so \
     vendor/sony/pine/proprietary/vendor/lib/libhwm.so:system/vendor/lib/libhwm.so \
@@ -711,7 +709,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pine/proprietary/vendor/lib/libtouchfilter.so:system/vendor/lib/libtouchfilter.so \
     vendor/sony/pine/proprietary/vendor/lib/libtplay.so:system/vendor/lib/libtplay.so \
     vendor/sony/pine/proprietary/vendor/lib/libudf.so:system/vendor/lib/libudf.so \
-    vendor/sony/pine/proprietary/vendor/lib/libui_ext.so:system/vendor/lib/libui_ext.so \
     vendor/sony/pine/proprietary/vendor/lib/liburee_meta_drmkeyinstall.so:system/vendor/lib/liburee_meta_drmkeyinstall.so \
     vendor/sony/pine/proprietary/vendor/lib/libuvtswenc_sa.ca7.android.so:system/vendor/lib/libuvtswenc_sa.ca7.android.so \
     vendor/sony/pine/proprietary/vendor/lib/libvc1dec_sa.ca7.so:system/vendor/lib/libvc1dec_sa.ca7.so \
@@ -862,8 +859,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pine/proprietary/vendor/lib64/libgas.so:system/vendor/lib64/libgas.so \
     vendor/sony/pine/proprietary/vendor/lib64/libged.so:system/vendor/lib64/libged.so \
     vendor/sony/pine/proprietary/vendor/lib64/libgpu_aux.so:system/vendor/lib64/libgpu_aux.so \
-    vendor/sony/pine/proprietary/vendor/lib64/libgralloc_extra.so:system/vendor/lib64/libgralloc_extra.so \
-    vendor/sony/pine/proprietary/vendor/lib64/libgui_ext.so:system/vendor/lib64/libgui_ext.so \
     vendor/sony/pine/proprietary/vendor/lib64/libh264enc_sa.ca7.so:system/vendor/lib64/libh264enc_sa.ca7.so \
     vendor/sony/pine/proprietary/vendor/lib64/libhwm.so:system/vendor/lib64/libhwm.so \
     vendor/sony/pine/proprietary/vendor/lib64/libhydra.so:system/vendor/lib64/libhydra.so \
@@ -940,7 +935,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pine/proprietary/vendor/lib64/libtouchfilter.so:system/vendor/lib64/libtouchfilter.so \
     vendor/sony/pine/proprietary/vendor/lib64/libtplay.so:system/vendor/lib64/libtplay.so \
     vendor/sony/pine/proprietary/vendor/lib64/libudf.so:system/vendor/lib64/libudf.so \
-    vendor/sony/pine/proprietary/vendor/lib64/libui_ext.so:system/vendor/lib64/libui_ext.so \
     vendor/sony/pine/proprietary/vendor/lib64/liburee_meta_drmkeyinstall.so:system/vendor/lib64/liburee_meta_drmkeyinstall.so \
     vendor/sony/pine/proprietary/vendor/lib64/libvcodec_cap.so:system/vendor/lib64/libvcodec_cap.so \
     vendor/sony/pine/proprietary/vendor/lib64/libvcodec_oal.so:system/vendor/lib64/libvcodec_oal.so \
