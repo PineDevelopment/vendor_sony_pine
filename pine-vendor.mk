@@ -481,6 +481,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pine/proprietary/vendor/lib/hw/gatekeeper.mt6737t.so:system/vendor/lib/hw/gatekeeper.mt6737t.so \
     vendor/sony/pine/proprietary/vendor/lib/hw/gatekeeper.pine.so:system/vendor/lib/hw/gatekeeper.pine.so \
     vendor/sony/pine/proprietary/vendor/lib/hw/gps.mt6737t.so:system/vendor/lib/hw/gps.mt6737t.so \
+    vendor/sony/pine/proprietary/vendor/lib/hw/gralloc.mt6735.so:system/vendor/lib/hw/gralloc.mt6735.so \
+    vendor/sony/pine/proprietary/vendor/lib/hw/gralloc.mt6737.so:system/vendor/lib/hw/gralloc.mt6737.so \
     vendor/sony/pine/proprietary/vendor/lib/hw/gralloc.mt6737t.so:system/vendor/lib/hw/gralloc.mt6737t.so \
     vendor/sony/pine/proprietary/vendor/lib/hw/hwcomposer.mt6735.so:system/vendor/lib/hw/hwcomposer.mt6735.so \
     vendor/sony/pine/proprietary/vendor/lib/hw/keystore.mt6737t.so:system/vendor/lib/hw/keystore.mt6737t.so \
@@ -742,6 +744,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pine/proprietary/vendor/lib64/hw/gatekeeper.mt6737t.so:system/vendor/lib64/hw/gatekeeper.mt6737t.so \
     vendor/sony/pine/proprietary/vendor/lib64/hw/gatekeeper.pine.so:system/vendor/lib64/hw/gatekeeper.pine.so \
     vendor/sony/pine/proprietary/vendor/lib64/hw/gps.mt6737t.so:system/vendor/lib64/hw/gps.mt6737t.so \
+    vendor/sony/pine/proprietary/vendor/lib64/hw/gralloc.mt6735.so:system/vendor/lib64/hw/gralloc.mt6735.so \
+    vendor/sony/pine/proprietary/vendor/lib64/hw/gralloc.mt6737.so:system/vendor/lib64/hw/gralloc.mt6737.so \
     vendor/sony/pine/proprietary/vendor/lib64/hw/gralloc.mt6737t.so:system/vendor/lib64/hw/gralloc.mt6737t.so \
     vendor/sony/pine/proprietary/vendor/lib64/hw/hwcomposer.mt6735.so:system/vendor/lib64/hw/hwcomposer.mt6735.so \
     vendor/sony/pine/proprietary/vendor/lib64/hw/keystore.mt6737t.so:system/vendor/lib64/hw/keystore.mt6737t.so \
