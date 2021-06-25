@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pine/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/vendor/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/sony/pine/proprietary/lib/drm/libdrmctaplugin.so:system/vendor/lib/drm/libdrmctaplugin.so \
     vendor/sony/pine/proprietary/lib/drm/libdrmmtkplugin.so:system/vendor/lib/drm/libdrmmtkplugin.so \
-    vendor/sony/pine/proprietary/lib/egl/libGLES_android.so:system/vendor/lib/egl/libGLES_android.so \
     vendor/sony/pine/proprietary/lib/hw/audio_policy.stub.so:system/vendor/lib/hw/audio_policy.stub.so \
     vendor/sony/pine/proprietary/lib/libMTKAudioTimeStretch.so:system/vendor/lib/libMTKAudioTimeStretch.so \
     vendor/sony/pine/proprietary/lib/libMiscTAApi.so:system/vendor/lib/libMiscTAApi.so \
@@ -155,7 +154,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pine/proprietary/lib/soundfx/libsonysweffect.so:system/vendor/lib/soundfx/libsonysweffect.so \
     vendor/sony/pine/proprietary/lib/touchfilter/roadrunner_ukf.so:system/vendor/lib/touchfilter/roadrunner_ukf.so \
     vendor/sony/pine/proprietary/lib/touchfilter/tfsw.so:system/vendor/lib/touchfilter/tfsw.so \
-    vendor/sony/pine/proprietary/lib64/egl/libGLES_android.so:system/vendor/lib64/egl/libGLES_android.so \
     vendor/sony/pine/proprietary/lib64/hw/audio_policy.stub.so:system/vendor/lib64/hw/audio_policy.stub.so \
     vendor/sony/pine/proprietary/lib64/hw/nfc_nci.pn54x.default.so:system/vendor/lib64/hw/nfc_nci.pn54x.default.so \
     vendor/sony/pine/proprietary/lib64/libMTKAudioTimeStretch.so:system/vendor/lib64/libMTKAudioTimeStretch.so \
